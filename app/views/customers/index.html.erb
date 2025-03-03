@@ -1,3 +1,4 @@
-<% @customers.each do |customer| %>
-  <%= render partial: "customers/customer", locals: { customer: customer } %>
-<% end %>
+<h1>All Customers</h1>
+<%= render @customers %>
+<a href="/customers/alphabetized">Alphabetized Customers</a>
+<a href="/customers/missing_email">Customers Missing Email</a>
