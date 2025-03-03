@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+@import "bulma";
+
+.customer-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.customer-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
